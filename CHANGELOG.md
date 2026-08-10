@@ -2,6 +2,22 @@
 
 ## [Unreleased]
 
+### Added
+
+- OpenSSF Best Practices passing-level self-assessment (67 criteria: 51 met,
+  13 not applicable, 3 pending the licensing decision) published as a
+  governance document, ready for transcription into a bestpractices.dev badge
+  entry.
+- Canonical quality-gate runner `scripts/run_checks.sh` mirroring the required
+  `validate` CI check; CONTRIBUTING.md (root and portal) expanded with the
+  quality gates and the validator-extension policy, which the pull-request
+  template now enforces as a QA checklist item.
+- The release workflow publishes the curated CHANGELOG section as the release
+  body (and fails if a release has no CHANGELOG section); README gains
+  feedback/contributing and private-security-reporting pointers; the issue
+  template's security contact now uses the canonical post-rename repository
+  URL.
+
 ### Security
 
 - OpenSSF Scorecard remediation: every GitHub Action across the five workflows

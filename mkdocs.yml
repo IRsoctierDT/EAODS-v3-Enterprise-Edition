@@ -60,6 +60,7 @@ nav:
       - Standards Lifecycle: governance/standards-lifecycle.md
       - Decision Register & RACI: governance/decision-register-and-raci.md
       - Release Readiness v1.0.0: governance/release-readiness-v1.0.0.md
+      - OpenSSF Best Practices Self-Assessment: governance/openssf-best-practices-self-assessment.md
   - Operations:
       - EPOC Framework: operations/epoc-framework.md
       - Incident Command Model: operations/incident-command-model.md

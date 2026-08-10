@@ -32,6 +32,13 @@ mkdocs serve
 
 All framework documents require YAML front matter, traceability, QA checks, integration points, and a human review gate.
 
+## Feedback and contributing
+
+- Report problems or propose enhancements via [GitHub issues](https://github.com/IRsoctierDT/EAODS-v3-Enterprise-Edition/issues).
+- The contribution process and quality gates are documented in [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Security
 
 Never commit secrets, credentials, regulated data, customer data, or sensitive incident evidence.
+
+Report vulnerabilities privately per [SECURITY.md](SECURITY.md) — never in a public issue.

@@ -1,5 +1,23 @@
 # Changelog
 
+## [Unreleased]
+
+### Security
+
+- OpenSSF Scorecard remediation: every GitHub Action across the five workflows
+  is pinned to a full commit SHA, the deprecated CodeQL Action v3 is upgraded
+  to v4, and `release.yml` scopes `contents: write` to the release job instead
+  of granting it workflow-wide.
+- The documentation toolchain is hash-locked: `requirements-docs.txt` is now
+  compiled from `requirements-docs.in` with `--generate-hashes`, CI installs
+  with `--require-hashes`, and the resolved `pymdown-extensions` 11.0.1 clears
+  GHSA-9xwg-3r6f-jcx2.
+- `SECURITY.md` now documents the private vulnerability reporting channel,
+  response expectations, supported versions, and scope.
+- CodeQL no longer analyzes `history/original-sources/` — frozen archival
+  evidence that corpus governance prohibits modifying, so findings there were
+  unactionable.
+
 ## [1.0.0] - 2026-08-03
 
 First general-availability release of EAODS Enterprise Edition as a complete
